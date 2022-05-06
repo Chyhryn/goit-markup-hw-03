@@ -23,6 +23,54 @@ body {
   background-color: var(--white-color);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 1px solid tomato;
+}
+
+/* Header */
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+}
+.contacts-list {
+  display: flex;
+  margin-left: auto;
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.nav-link {
+  display: block;
+  padding: 32px 0;
+}
+
+.contacts-item:first-child {
+  margin-right: 50px;
+}
+
 /* Background */
 
 .hero {
@@ -36,9 +84,10 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-
+  margin-right: 93px;
   text-decoration: none;
   color: var(--accent-color);
+  outline: 1px solid green;
 }
 
 .black-logo {
@@ -76,6 +125,10 @@ body {
 
 .nav-link {
   color: var(--secondary-color);
+}
+
+.nav-item {
+  outline: 1px solid tomato;
 }
 
 .current {
