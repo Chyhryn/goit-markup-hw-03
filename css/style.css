@@ -97,10 +97,13 @@ ul {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  margin-right: 93px;
   text-decoration: none;
 
   color: var(--accent-color);
+}
+
+.header-logo {
+  margin-right: 93px;
 }
 
 .black-logo {
@@ -256,8 +259,30 @@ ul {
 .member-image {
   margin-bottom: 30px;
 }
+
+/* Footer */
+
 .footer {
   background-color: var(--bg-color);
+}
+
+.footer-container {
+  padding-top: 60px;
+  padding-bottom: 57px;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.address-text,
+.address-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.address-container {
+  width: 231px;
 }
 
 /* Links */
@@ -373,7 +398,7 @@ ul {
   line-height: 1.88;
 }
 
-.address {
+.footer-address {
   font-style: normal;
   color: var(--secondary-accent-color);
 }
