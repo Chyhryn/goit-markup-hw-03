@@ -44,6 +44,14 @@ ul {
   outline: 1px solid tomato;
 }
 
+.btn {
+  padding: 0;
+  border: none;
+
+  font-family: inherit;
+  cursor: pointer;
+}
+
 /* Header */
 
 .header-container {
@@ -71,10 +79,45 @@ ul {
   margin-right: 50px;
 }
 
-/* Background */
+/* Hero section */
 
 .hero {
   background-color: var(--bg-color);
+}
+
+.hero-container {
+  padding: 200px 0;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 696px;
+}
+
+.hero-title {
+  margin-bottom: 30px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--secondary-accent-color);
+}
+
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+
+  color: var(--secondary-accent-color);
+  background-color: var(--accent-color);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #188ce8;
 }
 
 /* Logo */
@@ -151,27 +194,6 @@ ul {
 }
 
 /* Buttons */
-.btn {
-  font-family: inherit;
-  cursor: pointer;
-}
-.hero-btn {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-
-  color: var(--secondary-accent-color);
-  background-color: var(--accent-color);
-}
-
-.hero-btn:hover,
-.hero-btn:focus {
-  background-color: #188ce8;
-}
 
 .works-btn {
   font-family: inherit;
@@ -193,17 +215,6 @@ ul {
 }
 
 /* Headings */
-
-.hero-title {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-
-  color: var(--secondary-accent-color);
-}
 
 .benefits-title,
 .services-title,
