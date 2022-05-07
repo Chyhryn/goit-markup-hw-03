@@ -55,9 +55,14 @@ ul {
   cursor: pointer;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* Header */
 
-.header-section {
+.header {
   border-bottom: 1px solid #ececec;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -118,15 +123,17 @@ ul {
 
 .hero {
   background-color: var(--bg-color);
+  padding: 200px 0;
 }
 
 .hero-container {
-  padding: 200px 0;
   text-align: center;
 }
 
 .hero-content {
   max-width: 696px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-title {
@@ -160,11 +167,6 @@ ul {
 
 /* Benefits section */
 
-.benefits-container {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .benefits-list {
   display: flex;
   justify-content: space-between;
@@ -194,8 +196,8 @@ ul {
 
 /* Services section */
 
-.services-container {
-  padding-bottom: 94px;
+.services {
+  padding-top: 0;
 }
 
 .services-title {
@@ -216,11 +218,6 @@ ul {
 }
 
 /* Team section */
-
-.team-container {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 
 .team {
   background-color: var(--secondary-bg-color);
@@ -287,11 +284,6 @@ ul {
 
 /* Works section */
 
-.works-container {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .works-filter-list {
   display: flex;
   justify-content: center;
@@ -322,9 +314,9 @@ ul {
   max-width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
-  flex-basis: calc((100% - 60px) / 3);
+  /* flex-basis: calc((100% - 60px) / 3); */
 
-  border: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 .works-item:nth-child(3n) {
   margin-right: 0;
