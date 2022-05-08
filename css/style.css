@@ -225,12 +225,10 @@ ul {
 
 .team-list {
   display: flex;
-  justify-content: space-between;
 }
 
 .member-item {
   margin-right: 30px;
-  padding-bottom: 30px;
 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -241,6 +239,10 @@ ul {
   margin-right: 0px;
 }
 
+.member-item-group {
+  padding: 30px 0;
+}
+
 .member-title {
   margin-bottom: 10px;
   font-weight: 500;
@@ -249,19 +251,12 @@ ul {
   text-align: center;
 }
 
-.member-image {
-  margin-bottom: 30px;
-}
-
 /* Footer */
 
 .footer {
   background-color: var(--bg-color);
-}
-
-.footer-container {
   padding-top: 60px;
-  padding-bottom: 57px;
+  padding-bottom: 60px;
 }
 
 .footer-logo {
